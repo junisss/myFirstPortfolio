@@ -2,7 +2,7 @@
 .header {
     font-family: Geneva, sans-serif;
     letter-spacing: 7px;
-    margin: 2% 0 5% 5%;
+    margin: 2% 5% 5% 5%;
 }
 
 h1 {
@@ -21,8 +21,36 @@ h1 {
 }
 
 .portfolio {
-    margin-left: 25%;
+    margin-left: 30%;
 }
+
+
+/* Galery of the projects */
+.galery {
+    font-family: Geneva, sans-serif;
+    letter-spacing: 7px;
+    font-size: 1vw;
+    margin: 0 0 5% 5%;
+}
+
+img {
+    display: inline-table;
+    width: 30%;
+    max-height: 250px;
+    min-height: 250px;
+}
+
+h3 {
+    display: inline-table;
+    font-size: 0.9vw;
+    font-weight: 100;
+    text-align: center;
+    width: 30%;
+    letter-spacing: 3px;
+    padding-bottom: 4%;
+}
+
+
 
 
 
