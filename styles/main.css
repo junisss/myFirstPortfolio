@@ -9,19 +9,18 @@ h1 {
     font-size: 2.5vw;
     letter-spacing: 7px;
     font-weight: 100;
-    display: inline-table;
+    display: inline-flex;
 }
 
 .portfolio, .about {
     font-size: 1vw;
     text-decoration: none;
     display: inline-table;
+    float: right;
     width: 15%;
     text-align: right;
-}
-
-.portfolio {
-    margin-left: 30%;
+    padding: 3.75% 5% 0 0;
+    
 }
 
 
@@ -36,8 +35,6 @@ h1 {
 img {
     display: inline-table;
     width: 30%;
-    max-height: 250px;
-    min-height: 250px;
 }
 
 h3 {
@@ -50,6 +47,28 @@ h3 {
     padding-bottom: 4%;
 }
 
+
+/* Footer */
+.socialMedia {
+    display: inline-table;
+    text-align: center;
+    width: 100%;
+}
+
+.socialMedia img {
+    width: 3%;
+    min-width: 3%;
+    max-height: 30px;
+    min-height: 30px;
+    padding: 1px;
+}
+
+.kopyrajt {
+    text-align: center;
+    font-size: 1vw;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
 
 
 
