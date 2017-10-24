@@ -1,26 +1,35 @@
+body {
+    font-family: Geneva, sans-serif;
+}
+
 /* Header */
 .header {
-    font-family: Geneva, sans-serif;
-    letter-spacing: 7px;
-    margin: 2% 5% 5% 5%;
+    margin: 2% 0 5% 5%;
+    display: inline-table;
+    width: 50%;
 }
 
 h1 {
     font-size: 2.5vw;
     letter-spacing: 7px;
     font-weight: 100;
-    display: inline-flex;
+    width: 100%;
+}
+
+.menu {
+    text-align: right;
+    display: inline-table;
+    margin: 2% 5% 5% 0;
+    width: 35%;
+    vertical-align: central;
 }
 
 .portfolio, .about {
-    font-size: 1vw;
+    font-size: 1.3vw;
     text-decoration: none;
-    display: inline-table;
-    float: right;
-    width: 15%;
+    display: inline-block;
+    width: 30%;
     text-align: right;
-    padding: 3.75% 5% 0 0;
-    
 }
 
 
@@ -32,7 +41,7 @@ h1 {
     margin: 0 0 5% 5%;
 }
 
-img {
+.galery img {
     display: inline-table;
     width: 30%;
 }
@@ -47,6 +56,42 @@ h3 {
     padding-bottom: 4%;
 }
 
+
+/* About Me */
+.myPhoto {
+    width: 38%;
+    display: inline-table;
+    margin: 0 2% 10% 5%;
+}
+
+.myPhoto img {
+    width: 100%;
+    display: inline-table;
+}
+
+.aboutMe {
+    width: 45%;
+    display: inline-table;
+    float: right;
+    margin: 0 7% 10% 2%;
+}
+
+h2 {
+    font-size: 1.5vw;
+    font-weight: 200;
+    text-align: left;
+    letter-spacing: 5px;
+    display: inline-block;
+    width: 100%;
+}
+
+p {
+    font-size: 0.9vw;
+    font-weight: 100;
+    letter-spacing: 1px;
+    display: block;
+    width: 100%;
+}
 
 /* Footer */
 .socialMedia {
