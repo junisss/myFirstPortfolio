@@ -48,7 +48,7 @@ h1 {
 
 h3 {
     display: inline-table;
-    font-size: 0.9vw;
+    font-size: 1.2vw;
     font-weight: 100;
     text-align: center;
     width: 30%;
@@ -92,6 +92,39 @@ p {
     display: block;
     width: 100%;
 }
+
+
+/* Project description */
+.description {
+    width: 40%;
+    margin: 0 2% 3% 5%;
+    display: inline-table;
+    vertical-align: top;
+}
+
+.siteView {
+    width: 35%;
+    margin: 0 5% 3% 2%;
+    display: inline-table;
+}
+
+h4 {
+    color: grey;
+    font-size: 0.9vw;
+    font-weight: 100;
+    letter-spacing: 5px;
+    padding-bottom: 2%;
+    margin: 0;
+}
+
+.siteView img {
+    width: 100%;
+}
+
+.siteView h4 {
+    text-align: center;
+}
+
 
 /* Footer */
 .socialMedia {
